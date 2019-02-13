@@ -20,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 .splash-lead {
   font-family: bennet-display, serif;
   font-size: 36px;
-  line-height: 1.33; }
+  line-height: 1.33;
+  letter-spacing: 1px; }
 
 .section-header {
   font-family: acumin-pro, sans-serif;
@@ -53,8 +54,17 @@ main section#about {
   background-color: #e7f1fd; }
 main section#company {
   background-color: white; }
+  main section#company .flex-row {
+    display: flex; }
+    main section#company .flex-row > .col {
+      padding: 0; }
 main section#offer {
   background-color: #e7f1fd; }
+  main section#offer .flex-row {
+    display: flex; }
+    main section#offer .flex-row > .col {
+      border: 1px solid gold;
+      padding: 0; }
 main section#team {
   background-color: white; }
 main section#contact {

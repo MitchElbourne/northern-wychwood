@@ -34,11 +34,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-
 .splash-lead {
   font-family: bennet-display, serif;
   font-size: 36px;
   line-height: 1.33;
+  letter-spacing: 1px;
 }
 .section-header {
   font-family: acumin-pro, sans-serif;
@@ -89,10 +89,25 @@ main {
 
   section#company {
     background-color: $white;
+    .flex-row {
+      display: flex;
+      > .col {
+        padding: 0;
+      }
+      // TODO : Add custom padding, check responsiveness
+    }
   }
 
   section#offer {
     background-color: $pale-blue;
+    .flex-row {
+      display: flex;
+      > .col {
+        border: 1px solid gold;
+        padding: 0;
+      }
+      // TODO : Add custom padding, check responsiveness
+    }
   }
 
   section#team {
