@@ -1,6 +1,60 @@
+@import url("https://use.typekit.net/jse5fqe.css");
+
+/* --- Colors --- */
 
 $pale-blue:      #e7f1fd;
+$deep-blue:      #275ea3;
+$black:          #000010;
 $white:          #ffffff;
+
+
+
+/* --- Fonts --- */
+
+/* Define the "system" font family */
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+// font-family: acumin-pro, sans-serif;
+// font-family: bennet-display, serif;
+// font-family: bennet-text-one, serif;
+
+body {
+  font-family: bennet-display, serif;
+  color: $black;
+  font-size: 18px;
+  line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+}
+
+
+.splash-lead {
+  font-family: bennet-display, serif;
+  font-size: 36px;
+  line-height: 1.33;
+}
+.section-header {
+  font-family: acumin-pro, sans-serif;
+  font-size: 15px;
+  color: $deep-blue;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.header {
+  font-family: bennet-display, serif;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+
+/* --- Global Architecture --- */
 
 .wrapper {
   display: flex;
@@ -14,6 +68,7 @@ $white:          #ffffff;
 
 nav.primary {
   border: 1px solid red;
+
 }
 
 main {
