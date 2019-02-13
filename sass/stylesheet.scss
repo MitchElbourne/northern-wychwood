@@ -1,0 +1,55 @@
+
+$pale-blue:      #e7f1fd;
+$white:          #ffffff;
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  main {
+    flex: 1;
+  }
+}
+
+
+nav.primary {
+  border: 1px solid red;
+}
+
+main {
+
+
+
+  section {
+    border: none;
+  }
+
+  section#splash {
+    background-color: $pale-blue;
+  }
+
+  section#about {
+    background-color: $pale-blue;
+  }
+
+  section#company {
+    background-color: $white;
+  }
+
+  section#offer {
+    background-color: $pale-blue;
+  }
+
+  section#team {
+    background-color: $white;
+  }
+
+  section#contact {
+    background-color: $pale-blue;
+  }
+}
+
+
+footer.primary {
+  border: 1px solid blue;
+}

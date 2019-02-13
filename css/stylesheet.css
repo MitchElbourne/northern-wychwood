@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+  .wrapper main {
+    flex: 1; }
+
+nav.primary {
+  border: 1px solid red; }
+
+main section {
+  border: none; }
+main section#splash {
+  background-color: #e7f1fd; }
+main section#about {
+  background-color: #e7f1fd; }
+main section#company {
+  background-color: white; }
+main section#offer {
+  background-color: #e7f1fd; }
+main section#team {
+  background-color: white; }
+main section#contact {
+  background-color: #e7f1fd; }
+
+footer.primary {
+  border: 1px solid blue; }
