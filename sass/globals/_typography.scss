@@ -52,6 +52,7 @@ h2, .h2 {
   font-family: $benDisplay;
   font-size: 2.369rem;
   line-height: 1.45;
+  margin-bottom: 2rem;
   @include media-breakpoint-down(lg) {
     font-size: 1.777rem;
   }
@@ -98,12 +99,18 @@ h6, .h6 {
 p, span {
   font-family: $benDisplay;
   font-size: 1rem;
+  line-height: 1.78;
   @include media-breakpoint-down(lg) {
     font-size: 0.9rem;
   }
   @include media-breakpoint-down(sm) {
     font-size: 0.8rem;
   }
+}
+
+li, label {
+  font-size: 1rem;
+  font-family: $benTextRg;
 }
 
 .p1 {

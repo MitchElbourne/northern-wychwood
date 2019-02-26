@@ -19,6 +19,14 @@ a {
     transition: all 200ms linear;
   }
 }
+.section-title {
+	color: $deep-blue;
+	text-transform: uppercase;
+	font-family: $acumin;
+	letter-spacing: 1px;
+	line-height: 1.6;
+	margin-bottom: 1.66rem;
+}
 section {
   padding: 2.66rem 0;
 	@include media-breakpoint-down(sm) {

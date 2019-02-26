@@ -39,7 +39,8 @@ h1, .h1 {
 h2, .h2 {
   font-family: "bennet-display", "system", "sans-serif";
   font-size: 2.369rem;
-  line-height: 1.45; }
+  line-height: 1.45;
+  margin-bottom: 2rem; }
   @media (max-width: 1199px) {
     h2, .h2 {
       font-size: 1.777rem; } }
@@ -84,13 +85,18 @@ h6, .h6 {
 
 p, span {
   font-family: "bennet-display", "system", "sans-serif";
-  font-size: 1rem; }
+  font-size: 1rem;
+  line-height: 1.78; }
   @media (max-width: 1199px) {
     p, span {
       font-size: 0.9rem; } }
   @media (max-width: 767px) {
     p, span {
       font-size: 0.8rem; } }
+
+li, label {
+  font-size: 1rem;
+  font-family: "bennet-text-one", "system", "sans-serif"; }
 
 .p1 {
   font-size: 1.22rem; }
@@ -116,6 +122,14 @@ a {
     border-bottom: 2px solid rgba(57, 138, 239, 0.7);
     transition: all 200ms linear; }
 
+.section-title {
+  color: #275ea3;
+  text-transform: uppercase;
+  font-family: "acumin-pro", "system", "sans-serif";
+  letter-spacing: 1px;
+  line-height: 1.6;
+  margin-bottom: 1.66rem; }
+
 section {
   padding: 2.66rem 0; }
   @media (max-width: 767px) {
@@ -140,15 +154,132 @@ html {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
-main section {
-  border: 1px solid red; }
+main section#splash-1, main section#splash-2, main section#splash-3 {
+  position: relative; }
+  main section#splash-1:before, main section#splash-2:before, main section#splash-3:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgba(57, 138, 239, 0.12); }
+main section#splash-1:before, main section#splash-3:before {
+  bottom: 50%;
+  top: 0; }
+main section#splash-2:before {
+  top: 50%;
+  bottom: 0; }
+main section#introduction {
+  background-color: rgba(57, 138, 239, 0.12); }
+  main section#introduction .container .row .title {
+    margin: 0 auto;
+    font-size: 2.66rem; }
+main section#who-we-are {
+  background-color: rgba(57, 138, 239, 0.12); }
+  main section#who-we-are .container .row .content {
+    margin: 0 auto; }
+main section#our-values .container .row .content {
+  margin: 0 auto; }
+  main section#our-values .container .row .content .section-title {
+    margin-bottom: 1.66rem; }
+  main section#our-values .container .row .content .panel-container {
+    display: flex; }
+    main section#our-values .container .row .content .panel-container .panel {
+      display: inline-block;
+      width: calc(100%/2); }
+      main section#our-values .container .row .content .panel-container .panel:first-of-type {
+        padding-right: 2.66rem;
+        border-right: 1px solid #275ea3; }
+      main section#our-values .container .row .content .panel-container .panel:last-of-type {
+        padding-left: 2.66rem; }
+      main section#our-values .container .row .content .panel-container .panel .bold {
+        font-family: "bennet-text-one-bd", "system", "sans-serif"; }
+main section#what-we-do {
+  background-color: rgba(57, 138, 239, 0.12); }
+  main section#what-we-do .container .row .introduction {
+    margin: 0 auto; }
+  main section#what-we-do .container .row .panel-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 2.66rem; }
+    main section#what-we-do .container .row .panel-container .panel {
+      flex: 1 1 calc(100%/3);
+      border-right: 1px solid #275ea3;
+      padding-left: 1rem; }
+      main section#what-we-do .container .row .panel-container .panel:last-of-type {
+        border: none; }
+      main section#what-we-do .container .row .panel-container .panel:first-of-type {
+        padding-left: 0; }
+      main section#what-we-do .container .row .panel-container .panel li {
+        margin-bottom: 1rem; }
+main section#our-team .container .row .introduction {
+  margin: 0 auto; }
+main section#our-team .container .row .panel-container {
+  display: flex;
+  margin-top: 4rem; }
+  main section#our-team .container .row .panel-container .panel {
+    flex: 0 1 calc(100%/3);
+    padding: 0 2.2rem; }
+    main section#our-team .container .row .panel-container .panel .image-wrapper {
+      width: 12rem;
+      height: 12rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-color: rgba(57, 138, 239, 0.2);
+      margin-bottom: 2.66rem; }
+    main section#our-team .container .row .panel-container .panel .name {
+      margin: 0; }
+    main section#our-team .container .row .panel-container .panel .position {
+      font-family: "acumin-pro", "system", "sans-serif";
+      font-size: 0.8rem;
+      margin-bottom: 0.9rem;
+      text-transform: uppercase; }
+    main section#our-team .container .row .panel-container .panel .cta {
+      color: rgba(0, 0, 16, 0.5); }
+    main section#our-team .container .row .panel-container .panel .bio {
+      margin: 1.2rem 0 0.9rem 0;
+      border-bottom: rgba(0, 0, 16, 0.25); }
+    main section#our-team .container .row .panel-container .panel .sub-title {
+      color: rgba(75, 83, 84, 0.5);
+      margin: 0;
+      font-size: 0.8rem;
+      font-family: "acumin-pro", "system", "sans-serif"; }
+    main section#our-team .container .row .panel-container .panel .qualifications {
+      font-size: 0.8rem;
+      font-family: "acumin-pro", "system", "sans-serif";
+      color: #4b5354; }
+main section#contact-us .container .row .content {
+  margin: 0 auto; }
+  main section#contact-us .container .row .content .contact-information {
+    width: 100%;
+    display: flex; }
+    main section#contact-us .container .row .content .contact-information ul {
+      width: calc(100%/2); }
+      main section#contact-us .container .row .content .contact-information ul:first-of-type {
+        padding-right: 2.66rem;
+        border-right: 1px solid #275ea3; }
+      main section#contact-us .container .row .content .contact-information ul:last-of-type {
+        padding-left: 2.66rem; }
+  main section#contact-us .container .row .content form .form-name, main section#contact-us .container .row .content form .form-company {
+    display: flex; }
+  main section#contact-us .container .row .content form .form-name {
+    flex-wrap: wrap; }
+    main section#contact-us .container .row .content form .form-name label {
+      width: 100%; }
+    main section#contact-us .container .row .content form .form-name input {
+      flex-grow: 1; }
+  main section#contact-us .container .row .content form .form-company label {
+    flex-grow: 1; }
 
 footer .footer {
   display: flex;
   flex-direction: column; }
   footer .footer .panel-container {
     display: flex;
-    padding: 5.66rem 0; }
+    padding-top: 5.66rem;
+    padding-bottom: 5.66rem;
+    align-items: center; }
     footer .footer .panel-container .panel {
       flex: 1 1 calc(100%/3); }
     footer .footer .panel-container .logo {

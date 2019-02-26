@@ -2,9 +2,227 @@ header {
 
 }
 
+
 main {
   section {
-    border: 1px solid red;
+    // border: 1px solid red;
+  }
+
+  section#splash-1, section#splash-2, section#splash-3 {
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      background-color: rgba($underline, 0.12);
+    }
+    .container {
+      .row {
+        img {
+          // TODO:
+        }
+      }
+    }
+  }
+  section#splash-1, section#splash-3 {
+    &:before {
+      bottom: 50%;
+      top: 0;
+    }
+  }
+  section#splash-2 {
+    &:before {
+      top: 50%;
+      bottom: 0;
+    }
+  }
+
+
+  section#introduction {
+    background-color: rgba($underline, 0.12);
+    .container {
+      .row {
+        .title {
+          margin: 0 auto;
+          font-size: 2.66rem;
+        }
+      }
+    }
+  }
+  section#who-we-are {
+    background-color: rgba($underline, 0.12);
+    .container {
+      .row {
+        .content {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  section#our-values {
+    .container {
+      .row {
+        .content {
+          margin: 0 auto;
+          .section-title {
+            margin-bottom: 1.66rem;
+          }
+          .panel-container {
+            display: flex;
+            .panel {
+              display: inline-block;
+              width: calc(100%/2);
+              &:first-of-type {
+                padding-right: 2.66rem;
+                border-right: 1px solid $deep-blue;
+              }
+              &:last-of-type {
+                padding-left: 2.66rem;
+              }
+              .bold {
+                font-family: $benTextBd;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section#what-we-do {
+    background-color: rgba($underline, 0.12);
+    .container {
+      .row {
+        .introduction {
+          margin: 0 auto;
+        }
+        .panel-container {
+          display: flex;
+          flex-direction: row;
+          margin: 0 auto;
+          margin-top: 2.66rem;
+          .panel {
+            flex: 1 1 calc(100%/3);
+            border-right: 1px solid $deep-blue;
+            padding-left: 1rem;
+            &:last-of-type {
+              border: none;
+            }
+            &:first-of-type {
+              padding-left: 0;
+            }
+            li {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  section#our-team {
+    .container {
+      .row {
+        .introduction {
+          margin: 0 auto;
+        }
+        .panel-container {
+          display: flex;
+          margin-top: 4rem;
+          .panel {
+            flex: 0 1 calc(100%/3);
+            padding: 0 2.2rem;
+            .image-wrapper {
+              width: 12rem;
+              height: 12rem;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center;
+              background-color: rgba($underline, 0.2);
+              margin-bottom: 2.66rem;
+            }
+            .name {
+              margin: 0;
+            }
+            .position {
+              font-family: $acumin;
+              font-size: 0.8rem;
+              margin-bottom: 0.9rem;
+              text-transform: uppercase;
+            }
+            .cta {
+              color: rgba($black, 0.5);
+            }
+            .bio {
+              margin: 1.2rem 0 0.9rem 0;
+              border-bottom: rgba($black, 0.25);
+            }
+            .sub-title {
+              color: $light-grey;
+              margin: 0;
+              font-size: 0.8rem;
+              font-family: $acumin;
+            }
+            .qualifications {
+              font-size: 0.8rem;
+              font-family: $acumin;
+              color: #4b5354;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  section#contact-us {
+    .container {
+      .row {
+        .content {
+          margin: 0 auto;
+          .contact-information {
+            width: 100%;
+            display: flex;
+            ul {
+              width: calc(100%/2);
+              &:first-of-type {
+                padding-right: 2.66rem;
+                border-right: 1px solid $deep-blue;
+              }
+              &:last-of-type {
+                padding-left: 2.66rem;
+              }
+            }
+          }
+          form {
+            label {
+
+            }
+            input {
+
+            }
+            .form-name, .form-company {
+              display: flex;
+            }
+            .form-name {
+              flex-wrap: wrap;
+              label {
+                width: 100%;
+              }
+              input {
+                flex-grow: 1;
+              }
+            }
+            .form-company {
+              label {
+                flex-grow: 1;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -14,7 +232,9 @@ footer {
     flex-direction: column;
     .panel-container {
       display: flex;
-      padding: 5.66rem 0;
+      padding-top: 5.66rem;
+      padding-bottom: 5.66rem;
+      align-items: center;
       .panel {
         flex: 1 1 calc(100%/3);
       }
