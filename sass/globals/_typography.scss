@@ -39,7 +39,7 @@ $benTextBd: "bennet-text-one-bd", 'system', 'sans-serif' !default;
 
 h1, .h1 {
   font-family: $benDisplay;
-  font-size: 3.137rem;
+  font-size: 2.66rem;
   line-height: 1.45;
   @include media-breakpoint-down(lg) {
     font-size: 2.369rem;
@@ -111,6 +111,9 @@ p, span {
 li, label {
   font-size: 1rem;
   font-family: $benTextRg;
+  @include media-breakpoint-down(sm) {
+    font-size: 0.8rem;
+  }
 }
 
 .p1 {
