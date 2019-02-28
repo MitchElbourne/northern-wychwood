@@ -73,15 +73,8 @@ header {
     }
   }
 }
-span {
-  color: red;
-}
 
 main {
-  section {
-    // border: 1px solid red;
-  }
-
   section#splash-1, section#splash-2, section#splash-3 {
     position: relative;
     &:before {
@@ -138,6 +131,9 @@ main {
           width: 100%;
           height: 100%;
         }
+        .mobile-image {
+          display: none;
+        }
       }
     }
     @include media-breakpoint-down(md) {
@@ -148,6 +144,12 @@ main {
         .row {
           .title {
             margin-bottom: 2rem;
+          }
+          > .image-wrapper {
+            display: none;
+          }
+          .mobile-image {
+            display: block;
           }
         }
       }

@@ -208,9 +208,6 @@ header {
         header nav .container .contact {
           display: none; } }
 
-span {
-  color: red; }
-
 main section#splash-1, main section#splash-2, main section#splash-3 {
   position: relative; }
   main section#splash-1:before, main section#splash-2:before, main section#splash-3:before {
@@ -242,12 +239,18 @@ main section#introduction {
   main section#introduction .container .row .image-wrapper {
     width: 100%;
     height: 100%; }
+  main section#introduction .container .row .mobile-image {
+    display: none; }
   @media (max-width: 991px) {
     main section#introduction {
       padding-top: 8rem; } }
   @media (max-width: 767px) {
     main section#introduction .container .row .title {
-      margin-bottom: 2rem; } }
+      margin-bottom: 2rem; }
+    main section#introduction .container .row > .image-wrapper {
+      display: none; }
+    main section#introduction .container .row .mobile-image {
+      display: block; } }
 main section#who-we-are {
   background-color: rgba(57, 138, 239, 0.12); }
   main section#who-we-are .container .row .content {
