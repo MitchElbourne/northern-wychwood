@@ -235,7 +235,9 @@ main section#introduction {
   background-color: rgba(57, 138, 239, 0.12);
   padding-top: 11.5rem; }
   main section#introduction .container .row .title {
-    margin: 0 auto 4rem; }
+    margin: 0 auto; }
+  main section#introduction .container .row .h4 {
+    margin: 1rem auto 4rem; }
   main section#introduction .container .row .image-wrapper {
     width: 100%;
     height: 100%; }
@@ -289,6 +291,10 @@ main section#what-we-do {
   background-color: rgba(57, 138, 239, 0.12); }
   main section#what-we-do .container .row .introduction {
     margin: 0 auto; }
+    main section#what-we-do .container .row .introduction .inline-tag {
+      font-size: 1rem;
+      font-family: "bennet-display", "system", "sans-serif";
+      color: #275ea3; }
   main section#what-we-do .container .row .panel-container {
     display: flex;
     flex-direction: row;

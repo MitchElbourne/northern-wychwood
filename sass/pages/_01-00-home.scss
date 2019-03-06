@@ -125,7 +125,10 @@ main {
     .container {
       .row {
         .title {
-          margin: 0 auto 4rem;
+          margin: 0 auto;
+        }
+        .h4 {
+          margin: 1rem auto 4rem;
         }
         .image-wrapper {
           width: 100%;
@@ -229,6 +232,11 @@ main {
       .row {
         .introduction {
           margin: 0 auto;
+          .inline-tag {
+            font-size: 1rem;
+            font-family: $benDisplay;
+            color: $deep-blue;
+          }
         }
         .panel-container {
           display: flex;
