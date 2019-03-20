@@ -74,6 +74,33 @@ header {
   }
 }
 
+
+
+aside {
+  &#rebrand-modal {
+    display: block;
+    position: fixed;
+    width: 22rem;
+    top: 5rem;
+    right: 0;
+    z-index: 1;
+    background: $white;
+    font-size: 0.8rem;
+    padding: 1.25rem 2rem 2rem;
+    a {
+      background-color: #275ea3;
+      color: white;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+      font-family: "acumin-pro", "system", "sans-serif";
+      text-transform: uppercase;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+}
+
+
+
 main {
   section#splash-1, section#splash-2, section#splash-3 {
     position: relative;

@@ -25,7 +25,7 @@ function scrollToConfig() {
 }
 scrollToConfig();
 
-function inlineLinkSroll() {
+function inlineLinkScroll() {
 	var inlineLink = document.querySelectorAll(".inline-tag");
 
 	inlineLink.forEach(function(item){
@@ -38,10 +38,19 @@ function inlineLinkSroll() {
 				item.hash, {
 				duration: 500,
 				offset: (300)
-			}) 
+			})
 			e.preventDefault();
 		}
 	})
 
 }
-inlineLinkSroll();
+inlineLinkScroll();
+
+
+
+/*/
+  *  Rebranding modal
+/*/
+$('#rebrand-button').click( function (){
+    $('#rebrand-modal').css('display', 'none');
+})
