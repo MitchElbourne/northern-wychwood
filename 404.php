@@ -2,13 +2,14 @@
 
 	<main role="main" class="error">
 
-		<section id="background">
+		<section id="error">
 			<div class="container">
 				<div calss="row">
 
 					<div class="action-box col-12">
-						<h1 class="title h3">We can’t seem to find the page  you’re looking for. <span>Error Code: 404</span></h1>
-						<a href="<?php echo home_url(); ?>" class=""><div class="icon"></div>Back to home</a>
+						<h1>Error Code: 404</h1>
+						<h2 class="h1 title h3">We can’t seem to find the page  you’re looking for.</h2>
+						<a href="<?php echo home_url(); ?>" class="error-cta"><div class="icon"></div>Return back to the Home Page</a>
 					</div>
 				</div>
 			</div>

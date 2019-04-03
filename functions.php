@@ -33,4 +33,10 @@ function northernwychwood_scripts()
 }
 add_action('wp_enqueue_scripts', 'northernwychwood_scripts'); // Add Theme Stylesheet
 
+function remove_admin_bar()
+{
+    return false;
+}
+
+add_filter('show_admin_bar', 'remove_admin_bar'); // Remove Admin bar
 ?>

@@ -146,7 +146,7 @@
             <p class="qualifications">BCom (University of CapeTown), CA (SA), MBA (Oxford)</p>
           </div>
           <div class="panel">
-            <div class="image-wrapper" style="background-image: url('<?php echo get_theme_file_uri('assets/images/headshot-susanne.png'); ?>');"></div>
+            <div class="image-wrapper" style="background-image: url('<?php echo get_theme_file_uri('assets/images/headshot-susanne.jpg'); ?>');"></div>
             <h3 class="name">Susanne Fearnhead</h3>
             <p class="position">Director - Operations</p>
             <a href="mailto:susanne.fearnhead@northerncsp.net" class="cta">susanne.fearnhead@northerncsp.net</a>
