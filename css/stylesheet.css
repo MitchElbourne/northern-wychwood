@@ -166,7 +166,7 @@ header {
     background-color: #e7f1fd; }
     header nav .container .navbar-brand img {
       display: inline-block;
-      width: 6rem; }
+      width: 8rem; }
     header nav .container .navbar-toggler {
       padding: 0;
       margin-right: 1rem;
@@ -198,22 +198,22 @@ header {
       header nav .container #navbar-primary .navbar-nav {
         align-items: center;
         padding-top: 0.33rem; } }
-    header nav .container .contact {
+    header nav .container .contact-cta {
       color: #275ea3;
       padding-left: 1.1rem;
       border-left: 1px solid #275ea3;
       text-transform: uppercase;
       font-size: 0.65rem; }
       @media (max-width: 767px) {
-        header nav .container .contact {
+        header nav .container .contact-cta {
           display: none; } }
 
 aside#rebrand-modal {
   display: block;
   position: fixed;
   width: 22rem;
-  top: 5rem;
-  right: 0;
+  top: 8rem;
+  right: 2rem;
   z-index: 1;
   background: white;
   font-size: 0.8rem;
@@ -225,7 +225,17 @@ aside#rebrand-modal {
     letter-spacing: 1px;
     font-family: "acumin-pro", "system", "sans-serif";
     text-transform: uppercase;
-    padding: 0.5rem 1.5rem; }
+    padding: 0.5rem 1.5rem;
+    display: inline-block; }
+@media (max-width: 767px) {
+  aside#rebrand-modal {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    border: 3px solid #275ea3;
+    width: 70%;
+    padding: 1.66rem; } }
 
 main section#splash-1, main section#splash-2, main section#splash-3 {
   position: relative; }
@@ -240,7 +250,8 @@ main section#splash-1, main section#splash-2, main section#splash-3 {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    margin: 0 auto; }
   @media (max-width: 767px) {
     main section#splash-1 .container .row .image-wrapper, main section#splash-2 .container .row .image-wrapper, main section#splash-3 .container .row .image-wrapper {
       height: 12rem; } }
@@ -255,6 +266,19 @@ main section#introduction {
   padding-top: 11.5rem; }
   main section#introduction .container .row .title {
     margin: 0 auto; }
+  main section#introduction .container .row .title-wrapper {
+    margin: 0 auto; }
+    main section#introduction .container .row .title-wrapper .main-title {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+      padding: 0;
+      display: inline-block;
+      font-size: 3rem; }
+    @media (max-width: 991px) {
+      main section#introduction .container .row .title-wrapper .main-title {
+        font-size: 2.66rem; } }
+    @media (max-width: 767px) {
+      main section#introduction .container .row .title-wrapper .main-title {
+        font-size: 2.33rem; } }
   main section#introduction .container .row .h4 {
     margin: 1rem auto 4rem; }
   main section#introduction .container .row .image-wrapper {
@@ -310,10 +334,9 @@ main section#what-we-do {
   background-color: rgba(57, 138, 239, 0.12); }
   main section#what-we-do .container .row .introduction {
     margin: 0 auto; }
-    main section#what-we-do .container .row .introduction .inline-tag {
-      font-size: 1rem;
-      font-family: "bennet-display", "system", "sans-serif";
-      color: #275ea3; }
+    main section#what-we-do .container .row .introduction .service-offerings {
+      margin: 2rem 0 0.33rem;
+      text-align: center; }
   main section#what-we-do .container .row .panel-container {
     display: flex;
     flex-direction: row;
@@ -328,7 +351,17 @@ main section#what-we-do {
       main section#what-we-do .container .row .panel-container .panel:first-of-type {
         padding-left: 0; }
       main section#what-we-do .container .row .panel-container .panel li {
-        margin-bottom: 1rem; }
+        margin-bottom: 1rem;
+        font-size: 1rem; }
+        main section#what-we-do .container .row .panel-container .panel li:first-of-type {
+          font-family: "bennet-text-one-bd", "system", "sans-serif";
+          font-size: 1.3rem; }
+  main section#what-we-do .container .row .outro {
+    margin: 2rem auto 0; }
+    main section#what-we-do .container .row .outro .inline-tag {
+      font-size: 1rem;
+      font-family: "bennet-display", "system", "sans-serif";
+      color: #275ea3; }
   @media (max-width: 767px) {
     main section#what-we-do .container .row .panel-container {
       flex-direction: column; }

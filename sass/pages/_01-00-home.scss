@@ -12,7 +12,7 @@ header {
       .navbar-brand {
         img {
           display: inline-block;
-          width: 6rem;
+          width: 8rem;
         }
       }
       .navbar-toggler {
@@ -60,7 +60,7 @@ header {
           }
         }
       }
-      .contact {
+      .contact-cta {
         color: $deep-blue;
         padding-left: 1.1rem;
         border-left: 1px solid $deep-blue;
@@ -81,8 +81,8 @@ aside {
     display: block;
     position: fixed;
     width: 22rem;
-    top: 5rem;
-    right: 0;
+    top: 8rem;
+    right: 2rem;
     z-index: 1;
     background: $white;
     font-size: 0.8rem;
@@ -95,6 +95,18 @@ aside {
       font-family: "acumin-pro", "system", "sans-serif";
       text-transform: uppercase;
       padding: 0.5rem 1.5rem;
+      display: inline-block;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    &#rebrand-modal {
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      border: 3px solid $deep-blue;
+      width: 70%;
+      padding: 1.66rem;
     }
   }
 }
@@ -119,6 +131,7 @@ main {
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+          margin: 0 auto;
         }
       }
     }
@@ -153,6 +166,25 @@ main {
       .row {
         .title {
           margin: 0 auto;
+        }
+        .title-wrapper {
+          margin: 0 auto;
+          .main-title {
+            border-bottom: 2px solid rgba(black, 0.1);
+            padding: 0;
+            display: inline-block;
+            font-size: 3rem;
+          }
+          @include media-breakpoint-down(md) {
+            .main-title {
+              font-size: 2.66rem;
+            }
+          }
+          @include media-breakpoint-down(sm) {
+            .main-title {
+              font-size: 2.33rem;
+            }
+          }
         }
         .h4 {
           margin: 1rem auto 4rem;
@@ -259,10 +291,9 @@ main {
       .row {
         .introduction {
           margin: 0 auto;
-          .inline-tag {
-            font-size: 1rem;
-            font-family: $benDisplay;
-            color: $deep-blue;
+          .service-offerings {
+            margin: 2rem 0 0.33rem;
+            text-align: center;
           }
         }
         .panel-container {
@@ -282,7 +313,20 @@ main {
             }
             li {
               margin-bottom: 1rem;
+              &:first-of-type {
+                font-family: $benTextBd;
+                font-size: 1.3rem;
+              }
+              font-size: 1rem;
             }
+          }
+        }
+        .outro {
+          margin: 2rem auto 0;
+          .inline-tag {
+            font-size: 1rem;
+            font-family: $benDisplay;
+            color: $deep-blue;
           }
         }
       }
