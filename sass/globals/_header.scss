@@ -23,12 +23,17 @@ header#header {
             transition: color 200ms linear;
           }
         }
-        span {
-          color: $black;
-          height: 100%;
-          width: 100%;
-          text-transform: uppercase;
-          font-family: $acumin;
+        span.menu-text {
+          font-size: 0.9rem;
+          margin-left: 0.1rem;
+        }
+        span.navbar-toggler-icon {
+          background-image: url('../assets/svg/menu-button.svg');
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          width: 32px;
+          height: 32px;
         }
       }
       #navbar-primary {

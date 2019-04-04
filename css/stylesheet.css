@@ -191,12 +191,16 @@ header#header {
       header#header nav .container .navbar-toggler:hover span, header#header nav .container .navbar-toggler:focus span {
         color: rgba(0, 0, 16, 0.5);
         transition: color 200ms linear; }
-      header#header nav .container .navbar-toggler span {
-        color: #000010;
-        height: 100%;
-        width: 100%;
-        text-transform: uppercase;
-        font-family: "acumin-pro", "system", "sans-serif"; }
+      header#header nav .container .navbar-toggler span.menu-text {
+        font-size: 0.9rem;
+        margin-left: 0.1rem; }
+      header#header nav .container .navbar-toggler span.navbar-toggler-icon {
+        background-image: url("../assets/svg/menu-button.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 32px;
+        height: 32px; }
     header#header nav .container #navbar-primary .navbar-nav {
       display: flex;
       justify-content: center;
