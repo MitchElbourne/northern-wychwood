@@ -64,3 +64,13 @@ html {
 	font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 }
+
+.wpcf7-response-output, .wpcf7-validation-errors {
+  border-color: rgba($deep-blue, 0.9) !important;
+	float: left;
+	width: 100%;
+}
+span.wpcf7-not-valid-tip {
+	color: $deep-blue;
+	float: left;
+}

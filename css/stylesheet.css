@@ -164,6 +164,15 @@ html {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
+.wpcf7-response-output, .wpcf7-validation-errors {
+  border-color: rgba(39, 94, 163, 0.9) !important;
+  float: left;
+  width: 100%; }
+
+span.wpcf7-not-valid-tip {
+  color: #275ea3;
+  float: left; }
+
 header#header {
   position: sticky;
   top: 0;
@@ -517,8 +526,19 @@ main section#contact-us {
           width: 100%;
           margin-right: 0.66rem;
           position: relative; }
-        main section#contact-us .container .row .content form .form-name span:last-of-type {
-          margin-left: 1rem; }
+        main section#contact-us .container .row .content form .form-name span:first-of-type {
+          margin-right: 1rem; }
+      main section#contact-us .container .row .content form .form-name .meta-text {
+        font-size: 0.66rem;
+        color: rgba(0, 0, 16, 0.5);
+        width: 50%;
+        order: 1;
+        text-transform: uppercase;
+        font-family: "acumin-pro", "system", "sans-serif";
+        letter-spacing: 1px;
+        margin-top: 0.33rem; }
+        main section#contact-us .container .row .content form .form-name .meta-text:last-of-type {
+          padding-left: 0.4rem; }
     main section#contact-us .container .row .content form .form-company {
       display: flex;
       margin-top: 1.2rem; }
@@ -588,25 +608,33 @@ main section#contact-us {
           border-right: none; }
         main section#contact-us .container .row .content .contact-information ul:last-of-type {
           padding-left: 0; }
+    main section#contact-us .container .row .content form label {
+      margin: 0; }
     main section#contact-us .container .row .content form .form-name {
       flex-wrap: wrap; }
       main section#contact-us .container .row .content form .form-name span {
         flex: 1 1 100%; }
-        main section#contact-us .container .row .content form .form-name span:last-of-type {
-          margin-left: 0;
-          margin-top: 2rem; }
+        main section#contact-us .container .row .content form .form-name span:first-of-type {
+          margin-right: 0; }
         main section#contact-us .container .row .content form .form-name span input {
           width: 100%;
           margin: 0; }
+      main section#contact-us .container .row .content form .form-name .meta-text {
+        width: 100%;
+        order: 0; }
+        main section#contact-us .container .row .content form .form-name .meta-text:last-of-type {
+          padding-left: 0; }
     main section#contact-us .container .row .content form .form-company {
       flex-direction: column; }
       main section#contact-us .container .row .content form .form-company label {
         width: 100%; }
         main section#contact-us .container .row .content form .form-company label:last-of-type {
           margin-left: 0; }
-    main section#contact-us .container .row .content form .cta-wrapper input[type="submit"] {
-      padding: 0.66rem 1rem;
-      font-size: 0.7rem; } }
+    main section#contact-us .container .row .content form .cta-wrapper {
+      margin-top: 0; }
+      main section#contact-us .container .row .content form .cta-wrapper input[type="submit"] {
+        padding: 0.66rem 1rem;
+        font-size: 0.7rem; } }
 
 body.error404 main section#error {
   padding-top: 11rem; }

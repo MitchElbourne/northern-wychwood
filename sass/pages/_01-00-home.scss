@@ -372,23 +372,23 @@ main {
                   margin-right: 0.66rem;
                   position: relative;
                 }
-                &:last-of-type {
-                  margin-left: 1rem;
+                &:first-of-type {
+                  margin-right: 1rem;
                 }
               }
-              // .meta-text {
-              //   font-size: 0.66rem;
-              //   color: rgba($black, 0.5);
-              //   width: 50%;
-              //   order: 1;
-              //   text-transform: uppercase;
-              //   font-family: $acumin;
-              //   letter-spacing: 1px;
-              //   margin-top: 0.33rem;
-              //   &:last-of-type {
-              //     padding-left: 0.4rem;
-              //   }
-              // }
+              .meta-text {
+                font-size: 0.66rem;
+                color: rgba($black, 0.5);
+                width: 50%;
+                order: 1;
+                text-transform: uppercase;
+                font-family: $acumin;
+                letter-spacing: 1px;
+                margin-top: 0.33rem;
+                &:last-of-type {
+                  padding-left: 0.4rem;
+                }
+              }
             }
             .form-company {
               display: flex;
@@ -489,17 +489,26 @@ main {
               }
             }
             form {
+              label {
+                margin: 0;
+              }
               .form-name {
                 flex-wrap: wrap;
                 span {
-                  &:last-of-type {
-                    margin-left: 0;
-                    margin-top: 2rem;
+                  &:first-of-type {
+                    margin-right: 0;
                   }
                   flex: 1 1 100%;
                   input {
                     width: 100%;
                     margin: 0;
+                  }
+                }
+                .meta-text {
+                  width: 100%;
+                  order: 0;
+                  &:last-of-type {
+                    padding-left: 0;
                   }
                 }
               }
@@ -513,6 +522,7 @@ main {
                 }
               }
               .cta-wrapper {
+                margin-top: 0;
                 input[type="submit"] {
                   padding: 0.66rem 1rem;
                   font-size: 0.7rem;
@@ -525,6 +535,7 @@ main {
     }
   }
 }
+
 * {
   // border: 1px solid red;
 }
