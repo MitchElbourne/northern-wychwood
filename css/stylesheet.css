@@ -336,6 +336,8 @@ main section#introduction {
       padding: 0;
       display: inline-block;
       font-size: 3rem; }
+    main section#introduction .container .row .title-wrapper .title {
+      font-size: 2.33rem; }
     @media (max-width: 991px) {
       main section#introduction .container .row .title-wrapper .main-title {
         font-size: 2.66rem; } }
