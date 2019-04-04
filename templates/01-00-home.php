@@ -193,7 +193,8 @@
           <?php echo do_shortcode('[contact-form-7 title="Contact Us"]') ?>
 
 
-          <p class="form-text">Your privacy and security is of the utmost importance to us. We will always follow these principles and ask you how you would like us (or our partners) to communicate with you. The Information Commisioner regulates compliance with GDPR. <a href="mailto:info@northerncsp.net">Find out more</a></p>
+          <div class="form-text">
+            <p>Your privacy and security is of the utmost importance to us. We will always follow these principles and ask you how you would like us (or our partners) to communicate with you. The Information Commisioner regulates compliance with GDPR. <a class="cta-email" href="mailto:info@northerncsp.net">Email us to find out more</a></p></div>
         </div>
       </div><!--row-->
     </div><!--container-->

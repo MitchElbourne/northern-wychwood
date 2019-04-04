@@ -483,8 +483,8 @@ main {
             font-size: 0.77rem;
             margin: 0;
             padding-right: 1rem;
-            a {
-              color: $underline;
+            .cta-email {
+              color: $deep-blue;
             }
           }
         }
