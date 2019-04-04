@@ -9,6 +9,7 @@
 		/*/
 
 		var navbarOpen = false;
+
 		function menuCloseOnScroll()  {
 			var navContent = jQuery('.navbar-collapse');
 

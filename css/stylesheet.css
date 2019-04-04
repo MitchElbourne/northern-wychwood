@@ -647,3 +647,11 @@ body.error404 main section#error {
   body.error404 main section#error .error-cta {
     color: #275ea3;
     font-size: 1rem; }
+
+body.page-template-99-02-legal-privacy-policy main section#introduction .title-wrapper {
+  text-align: center; }
+  body.page-template-99-02-legal-privacy-policy main section#introduction .title-wrapper .title {
+    display: inline-block;
+    border-bottom: 1px solid black; }
+body.page-template-99-02-legal-privacy-policy main section#privacy-policy a {
+  font-size: 0.9rem; }

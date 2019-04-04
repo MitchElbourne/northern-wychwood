@@ -10,7 +10,9 @@
   <section id="introduction">
     <div class="container">
       <div class="row">
-        <h2 class="col-12 title"><?php echo get_the_title(); ?></h2>
+        <div class="col-12 title-wrapper">
+          <h2 class="title"><?php echo get_the_title(); ?></h2>
+        </div>
       </div><!--row-->
     </div><!--container-->
   </section><!--#introduction-->
