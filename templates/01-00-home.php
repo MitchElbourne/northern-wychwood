@@ -9,10 +9,10 @@
   <section id="introduction">
     <div class="container">
       <div class="row">
-        <div class="title-wrapper col-12 col-lg-8">
+        <div class="title-wrapper col-12 col-xl-8 col-lg-9">
           <h1 class="main-title">Northern Wychwood Limited. </h1>
+          <h2 class="h1 title">Corporate and Trust management </h1>
         </div>
-        <h2 class="h1 title col-12 col-lg-8">Corporate and Trust management </h1>
         <h3 class="h4 col-12 col-lg-8">With strongly rooted values, integrity and business acumen, we keep your assets secure and assist you to branch out internationally.</h2>
         <img class="col-12 col-lg-10 offset-lg-1 image-wrapper" src="<?php echo get_theme_file_uri('assets/images/tree-splash-with-text.png'); ?>" alt="Northern Wychwood Splash">
         <img class="col-12 col-lg-10 offset-lg-1 image-wrapper mobile-image" src="<?php echo get_theme_file_uri('assets/svg/tree-splash-without-text.svg'); ?>" alt="Northern Wychwood Splash">

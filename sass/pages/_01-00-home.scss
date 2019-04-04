@@ -49,11 +49,9 @@ main {
     padding-top: 11.5rem;
     .container {
       .row {
-        .title {
-          margin: 0 auto;
-        }
         .title-wrapper {
           margin: 0 auto;
+          text-align: center;
           .main-title {
             border-bottom: 2px solid rgba(black, 0.1);
             padding: 0;
@@ -90,14 +88,34 @@ main {
       padding-top: 6rem;
       .container {
         .row {
-          .title {
-            margin-bottom: 2rem;
+          .title-wrapper {
+            .main-title {
+              font-size: 2rem;
+            }
+            .title {
+              font-size: 1.66rem;
+            }
           }
           > .image-wrapper {
             display: none;
           }
           .mobile-image {
             display: block;
+          }
+        }
+      }
+    }
+    @include media-breakpoint-down(xs) {
+      padding-top: 6rem;
+      .container {
+        .row {
+          .title-wrapper {
+            .main-title {
+              font-size: 1.5rem;
+            }
+            .title {
+              font-size: 1.2rem;
+            }
           }
         }
       }
