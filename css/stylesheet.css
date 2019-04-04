@@ -182,7 +182,7 @@ header#header {
     background-color: #e7f1fd; }
     header#header nav .container .navbar-brand img {
       display: inline-block;
-      width: 10rem; }
+      width: 9rem; }
     header#header nav .container .navbar-toggler {
       padding: 0;
       margin-right: 1rem;
@@ -327,10 +327,9 @@ main section#splash-2:before {
   bottom: 0; }
 main section#introduction {
   background-color: rgba(57, 138, 239, 0.12);
-  padding-top: 11.5rem; }
+  padding-top: 11rem; }
   main section#introduction .container .row .title-wrapper {
-    margin: 0 auto;
-    text-align: center; }
+    margin: 0 auto; }
     main section#introduction .container .row .title-wrapper .main-title {
       border-bottom: 2px solid rgba(0, 0, 0, 0.1);
       padding: 0;
@@ -355,23 +354,19 @@ main section#introduction {
     main section#introduction {
       padding-top: 8rem; } }
   @media (max-width: 767px) {
-    main section#introduction {
-      padding-top: 6rem; }
-      main section#introduction .container .row .title-wrapper .main-title {
-        font-size: 2rem; }
-      main section#introduction .container .row .title-wrapper .title {
-        font-size: 1.66rem; }
-      main section#introduction .container .row > .image-wrapper {
-        display: none; }
-      main section#introduction .container .row .mobile-image {
-        display: block; } }
+    main section#introduction .container .row .title-wrapper .main-title {
+      font-size: 2rem; }
+    main section#introduction .container .row .title-wrapper .title {
+      font-size: 1.66rem; }
+    main section#introduction .container .row > .image-wrapper {
+      display: none; }
+    main section#introduction .container .row .mobile-image {
+      display: block; } }
   @media (max-width: 575px) {
-    main section#introduction {
-      padding-top: 6rem; }
-      main section#introduction .container .row .title-wrapper .main-title {
-        font-size: 1.5rem; }
-      main section#introduction .container .row .title-wrapper .title {
-        font-size: 1.2rem; } }
+    main section#introduction .container .row .title-wrapper .main-title {
+      font-size: 1.5rem; }
+    main section#introduction .container .row .title-wrapper .title {
+      font-size: 1.2rem; } }
 main section#who-we-are {
   background-color: rgba(57, 138, 239, 0.12); }
   main section#who-we-are .container .row .content {

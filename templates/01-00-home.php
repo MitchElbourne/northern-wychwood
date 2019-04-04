@@ -10,12 +10,12 @@
     <div class="container">
       <div class="row">
         <div class="title-wrapper col-12 col-xl-8 col-lg-9">
-          <h1 class="main-title">Northern Wychwood Limited. </h1>
-          <h2 class="h1 title">Corporate and Trust management </h1>
+          <h1 class="main-title">Northern Wychwood Limited.</h1>
+          <h2 class='title'>Corporate and trust management</h2>
+          <h3 class="h4">With strongly rooted values, integrity and business acumen, we keep your assets secure and assist you to branch out internationally.</h3>
         </div>
-        <h3 class="h4 col-12 col-lg-8">With strongly rooted values, integrity and business acumen, we keep your assets secure and assist you to branch out internationally.</h2>
         <img class="col-12 col-lg-10 offset-lg-1 image-wrapper" src="<?php echo get_theme_file_uri('assets/images/tree-splash-with-text.png'); ?>" alt="Northern Wychwood Splash">
-        <img class="col-12 col-lg-10 offset-lg-1 image-wrapper mobile-image" src="<?php echo get_theme_file_uri('assets/svg/tree-splash-without-text.svg'); ?>" alt="Northern Wychwood Splash">
+        <img class="col-12 col-lg-10 offset-lg-1 image-wrapper mobile-image" src="<?php echo get_theme_file_uri('assets/images/tree-splash-without-text.png'); ?>" alt="Northern Wychwood Splash">
       </div><!--row-->
     </div><!--container-->
   </section><!--#introduction-->
@@ -25,7 +25,7 @@
       <div class="row">
         <div class="content col-12 col-lg-7">
           <h2 class="h6 section-title">who we are</h2>
-          <h3 class="h3 title">Northern Wychwood Limited is a well established licenced corporate and trust service provider located  on the Isle of Man.</h3>
+          <h3>Northern Wychwood Limited is a licenced corporate and trust service provider located on the Isle of Man</h3>
           <img src="<?php echo get_theme_file_uri('assets/images/illus-threelegs.png'); ?>" alt="Isle of Man Badge" class="image-wrapper">
           <p>We believe every situation is unique. In giving a personal service to you, we provide secure asset protection structures. Our culture nurtures a strong family friendly and caring environment, with a focus on building long-lasting relationships and providing excellent service.</p>
           <p>Originally established as Wychwood Trust Limited (1933) and Northern Limited (2003), we were formed as a result of the two former companies merging in 2008.</p>
@@ -90,7 +90,7 @@
             <li>Foundations</li>
             <li>Companies</li>
             <li>Family Office</li>
-            <li>Luxury Asset Ownership  and Protection</li>
+            <li>Luxury Asset Ownership and Protection</li>
             <li>Real Estate</li>
             <li>Private Equity</li>
           </ul>
@@ -138,7 +138,7 @@
             <h3 class="name">Simon Fearnhead</h3>
             <p class="position">Director</p>
             <a href="mailto:simon.fearnhead@northerncsp.net" class="cta">simon.fearnhead@northerncsp.net</a>
-            <p class="bio">Simon’s expertise is in global finance and operations having been heavily involved in the international shared services, software and IT industries. He plays a pivotal role in growing the business and for implementing the company’s long and short term growth plans. He leads an experienced and motivated team providing bespoke client services to a worldwide client base, assisting clients to achieve their goals.</p>
+            <p class="bio">Simon’s expertise is in global finance and operations having been heavily involved in the international shared services, software and IT industries. He plays a pivotal role in growing the business and for implementing the company’s long and short term growth plans. He leads an experienced and motivated team providing bespoke client services to a worldwide client base, assisting clients to achieve their goals.</p>
             <div class="break"></div>
             <p class="sub-title">Qualifications & Professional Memberships</p>
             <p class="qualifications">BCom (University of CapeTown), CA (SA), MBA (Oxford)</p>
@@ -184,7 +184,7 @@
             <ul class="contact">
               <li>Tel: 01624 678259</li>
               <li>Fax: 01624 678292</li>
-              <li>  Email: <a class="email" href="mailto:info@northerncsp.net">info@northerncsp.net<a></li>
+              <li>Email: <a class="email" href="mailto:info@northerncsp.net">info@northerncsp.net</a></li>
             </ul>
           </div>
           <h4 class="h2 title">Get in touch</h4>

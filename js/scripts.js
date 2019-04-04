@@ -1,4 +1,4 @@
-(function ($, root, undefined, scrollTo) {
+(function ($, root, undefined) {
 
 	$(function () {
 
