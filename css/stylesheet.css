@@ -439,12 +439,11 @@ main section#our-team .container .row .introduction {
   margin: 0 auto; }
 main section#our-team .container .row .panel-container {
   display: flex;
-  margin-top: 2.8rem; }
+  margin-top: 2.8rem;
+  justify-content: center; }
   main section#our-team .container .row .panel-container .panel {
-    flex: 1 1 calc(100%/3 - 4.4rem);
-    padding: 0 2.2rem 0 0; }
-    main section#our-team .container .row .panel-container .panel:last-of-type {
-      padding-right: 0; }
+    flex: 0 1 calc(100%/3 - 2rem);
+    padding: 0 2rem; }
     main section#our-team .container .row .panel-container .panel .image-wrapper {
       width: 12rem;
       height: 12rem;
