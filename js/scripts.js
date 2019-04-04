@@ -5,6 +5,46 @@
 		'use strict';
 
 		/*/
+		*  Closes the Navbar on scroll if it is open
+		/*/
+
+		var navbarOpen = false;
+		function menuCloseOnScroll()  {
+			var navContent = jQuery('.navbar-collapse');
+
+			jQuery(window).on('scroll', lodash.throttle(function() {
+				if (navContent.hasClass('show')) {
+					navContent.collapse('hide');
+					navContent.removeClass('show');
+					jQuery('.navbar-toggler').removeClass('open');
+					navbarOpen = false;
+				}
+			}, 500));
+		}
+		menuCloseOnScroll();
+
+		/*/
+			*  Close Navbar when clicking out of menu area
+		/*/
+
+		function menuCloseOnClick() {
+			var navContent = jQuery('.navbar-collapse');
+
+			jQuery('body').bind('click', function(e) {
+				if(jQuery(e.target).closest('.collapse').length == 0) {
+					if (navContent.hasClass('show')) {
+						navContent.collapse('hide');
+						navContent.removeClass('show');
+						jQuery('.navbar-toggler').removeClass('open');
+						navbarOpen = false;
+					}
+				}
+			});
+		}
+		menuCloseOnClick();
+
+
+		/*/
 		  *  ScrollTo
 		/*/
 		function scrollToConfig() {
