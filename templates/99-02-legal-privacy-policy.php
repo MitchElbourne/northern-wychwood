@@ -11,7 +11,6 @@
     <div class="container">
       <div class="row">
         <h2 class="col-12 title"><?php echo get_the_title(); ?></h2>
-
       </div><!--row-->
     </div><!--container-->
   </section><!--#introduction-->

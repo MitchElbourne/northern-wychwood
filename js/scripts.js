@@ -43,7 +43,9 @@
 						offset: (-70)
 					})
 
-					e.preventDefault();
+					if($('body').hasClass('home')) {
+						e.preventDefault();
+					}
 				}
 
 

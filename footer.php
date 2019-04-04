@@ -17,8 +17,7 @@
 					<div class="col-12 bottom-section">
 						<p class="copyright">&copy; 2019 Northern Wychwood Limited. All rights reserved.</p>
 						<div class="cta-legal">
-							<a href="#">Privacy Policy</a>
-							<a href="#">Terms of Use</a>
+							<a href="<?php echo esc_url(site_url('/privacy-policy')); ?>">Privacy Policy</a>
 						</div>
 					</div>
 				</div><!--row-->

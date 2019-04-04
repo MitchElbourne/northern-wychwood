@@ -30,7 +30,7 @@
               <li><a class="nav-item nav-link" href="#our-team">Our Team</a></li>
             </ul><!--navbar-nav-->
           </div><!-- navbar-collapse -->
-          <a class="contact-cta" href="#contact-us">Contact us</a>
+          <a class="contact-cta" href="<?php echo esc_url(site_url('/#contact-us')) ?>">Contact us</a>
 
         </div><!--container-->
       </nav>

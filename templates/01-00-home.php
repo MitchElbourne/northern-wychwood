@@ -31,7 +31,7 @@
           <p>Originally established as Wychwood Trust Limited (1933) and Northern Limited (2003), we were formed as a result of the two former companies merging in 2008.</p>
           <p>Susanne and Simon Fearnhead became executive directors of the company on 2 March 2017. The previous directors formally retired on 30 April 2018, but continue to be available and advise clients as necessary.</p>
           <p>We have an international outlook and a global reach to achieve the most up to date and secure structures for our clients.</p>
-        </div>
+        </div><!--content-->
       </div><!--row-->
     </div><!--container-->
   </section><!--#who-we-are-->
@@ -39,7 +39,6 @@
   <section id="splash-1">
     <div class="container">
       <div class="row">
-
         <div class="image-wrapper col-12 col-lg-9" style="background-image: url('<?php echo get_theme_file_uri('assets/images/splash-001.jpg');?>')"></div>
       </div><!--row-->
     </div><!--container-->
@@ -57,13 +56,12 @@
               <p>We are proactive and focus on delivering solutions</p>
               <p>We act with unyielding integrity and professionalism</p>
             </div>
-            <!-- <div class="break"></div> -->
             <div class="panel">
               <p>Our purpose is to be your preferred partner. Entrepreneurs, HNWs and companies that have built, or are building, cross-border businesses or structures - our role is to protect your valuable assets.</p>
               <p>We will act as your main point of contact and work closely with a number of trusted advisors to provide bespoke legal, international tax and structuring solutions.</p>
             </div>
-          </div>
-        </div>
+          </div><!--panel-container-->
+        </div><!--content-->
       </div><!--row-->
     </div><!--container-->
   </section><!--#our-values-->
@@ -186,37 +184,13 @@
             <ul class="contact">
               <li>Tel: 01624 678259</li>
               <li>Fax: 01624 678292</li>
-              <li>  Email: info@northerncsp.net</li>
+              <li>  Email: <a class="email" href="mailto:info@northerncsp.net">info@northerncsp.net<a></li>
             </ul>
           </div>
           <h4 class="h2 title">Get in touch</h4>
-          <form class="contact form" action="index.html" method="post">
-            <div class="form-name">
-              <label for="name">Name*</label>
-              <input type="text" name="name"><span class="meta-text">First name</span></input>
 
-              <input type="text" name="surname"><span class="meta-text">Last name</span></input>
 
-            </div>
-            <div class="form-company">
-              <label for="company">Company Name
-                <input type="text" name="company">
-              </label>
-              <label for="position">Position
-                <input type="text" name="position">
-              </label>
-            </div>
-            <label class="email" for="email">Email Address*
-              <input type="text" name="email">
-
-            </label>
-            <label for="inquiries" class="inquiries">Inquiries*
-              <textarea name="inquiries" rows="8" cols="80"></textarea>
-            </label>
-            <div class="cta-wrapper">
-              <input type="submit" name="submit" value="Submit Form">
-            </div>
-          </form>
+          <?php echo do_shortcode('[contact-form-7 title="Contact Us"]') ?>
           <p class="form-text">Your privacy and security is of the utmost imporatnce to us. We will always follow these principles and ask you how you would like us (or our partners) to communicate with you. The Information Commisioner regulates compliance with GDPR. <a href="mailto:info@northerncsp.net">Find out more</a></p>
         </div>
       </div><!--row-->
