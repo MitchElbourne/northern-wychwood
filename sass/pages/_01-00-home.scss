@@ -246,11 +246,13 @@ main {
         }
         .panel-container {
           display: flex;
-          flex-wrap: wrap;
           margin-top: 2.8rem;
           .panel {
-            flex: 0 1 calc(100%/3);
-            padding: 0 2.2rem;
+            flex: 1 1 calc(100%/3 - 4.4rem);
+            padding: 0 2.2rem 0 0;
+            &:last-of-type {
+              padding-right: 0;
+            }
             .image-wrapper {
               width: 12rem;
               height: 12rem;
@@ -295,6 +297,7 @@ main {
         }
         @include media-breakpoint-down(md) {
           .panel-container {
+            flex-wrap: wrap;
             .panel {
               flex: 1 1 100%;
               margin-bottom: 2rem;

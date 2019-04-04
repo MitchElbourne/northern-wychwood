@@ -4,7 +4,6 @@
 
 		'use strict';
 
-
 		/*/
 		  *  ScrollTo
 		/*/
@@ -85,6 +84,8 @@
 		jQuery('#rebrand-button').click( function (){
 		    jQuery('#rebrand-modal').css('display', 'none');
 		})
+
+
 
 
 	});
