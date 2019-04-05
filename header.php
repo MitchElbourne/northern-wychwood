@@ -39,6 +39,6 @@
 
 
     <aside id="rebrand-modal" class="rebrand">
-      <p>We are rebranding and a new website will be available shortly.</p>
+      <p>We are rebranding - more information to follow soon</p>
       <a href="javascript:;" id="rebrand-button" class="cta cta-primary">Got it</a>
     </aside>

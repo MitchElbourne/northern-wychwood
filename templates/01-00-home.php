@@ -12,7 +12,7 @@
         <div class="title-wrapper col-12 col-xl-8 col-lg-9">
           <h1 class="main-title">Northern Wychwood Limited.</h1>
           <h2 class='title'>Corporate and trust management</h2>
-          <h3 class="h4">With strongly rooted values, integrity and business acumen, we keep your assets secure and assist you to branch out internationally.</h3>
+          <h3 class="h4">With strongly rooted values, integrity and business acumen, we keep your assets secure and help your business to grow internationally.</h3>
         </div>
         <img class="col-12 col-lg-10 offset-lg-1 image-wrapper" src="<?php echo get_theme_file_uri('assets/images/tree-splash-with-text.png'); ?>" alt="Northern Wychwood Splash">
         <img class="col-12 col-lg-10 offset-lg-1 image-wrapper mobile-image" src="<?php echo get_theme_file_uri('assets/images/tree-splash-without-text.png'); ?>" alt="Northern Wychwood Splash">
@@ -28,7 +28,7 @@
           <h3>Northern Wychwood Limited is a licenced corporate and trust service provider located on the Isle of Man</h3>
           <img src="<?php echo get_theme_file_uri('assets/images/illus-threelegs.png'); ?>" alt="Isle of Man Badge" class="image-wrapper">
           <p>We believe every situation is unique. In giving a personal service to you, we provide secure asset protection structures. Our culture nurtures a strong family friendly and caring environment, with a focus on building long-lasting relationships and providing excellent service.</p>
-          <p>Originally established as Wychwood Trust Limited (1933) and Northern Limited (2003), we were formed as a result of the two former companies merging in 2008.</p>
+          <p>Originally established as Wychwood Trust Limited (1933) and Northern Limited (2003), we were formed as a result of a merger of companies in 2008.</p>
           <p>Susanne and Simon Fearnhead became executive directors of the company on 2 March 2017. The previous directors formally retired on 30 April 2018, but continue to be available and advise clients as necessary.</p>
           <p>We have an international outlook and a global reach to achieve the most up to date and secure structures for our clients.</p>
         </div><!--content-->
@@ -138,7 +138,7 @@
             <h3 class="name">Simon Fearnhead</h3>
             <p class="position">Director</p>
             <a href="mailto:simon.fearnhead@northerncsp.net" class="cta">simon.fearnhead@northerncsp.net</a>
-            <p class="bio">Simon’s expertise is in global finance and operations having been heavily involved in the international shared services, software and IT industries. He plays a pivotal role in growing the business and for implementing the company’s long and short term growth plans. He leads an experienced and motivated team providing bespoke client services to a worldwide client base, assisting clients to achieve their goals.</p>
+            <p class="bio">Simon has expertise in world-class, multi-national finance and operations, having had significant experience in the aviation, consumer goods and IT industries. He plays a pivotal role in leading an experienced and motivated team in providing bespoke client services to an international client base and assisting clients to achieve their goals. Having grown up in Africa, Simon combines first world business experience with the daily challenges of building businesses in emerging markets.</p>
             <div class="break"></div>
             <p class="sub-title">Qualifications & Professional Memberships</p>
             <p class="qualifications">BCom (University of CapeTown), CA (SA), MBA (Oxford)</p>
@@ -148,7 +148,7 @@
             <h3 class="name">Susanne Fearnhead</h3>
             <p class="position">Director - Operations</p>
             <a href="mailto:susanne.fearnhead@northerncsp.net" class="cta">susanne.fearnhead@northerncsp.net</a>
-            <p class="bio">Drawing experience from her career in blue-chip operational finance covering Europe, Africa, India and Middle-East, within the energy and financial services industries, Susanne works closely with clients and advisors to find practical solutions to their specific situation. A firm believer in operational excellence, Susanne leads our team to continuously improve the way we work to achieve more for our clients.</p>
+            <p class="bio">Drawing experience from her career in blue-chip operational finance covering Europe, Africa, India and the Middle-East, within the energy and financial services industries, Susanne works closely with clients and advisors to find practical solutions to their specific situation. A firm believer in operational excellence, Susanne leads our team to continuously improve the way we work to achieve more for our clients.</p>
             <div class="break"></div>
             <p class="sub-title">Qualifications & Professional Memberships</p>
             <p class="qualifications">MSc BA (Stockholm School of Economics), Black Belt (Six Sigma Lean Management), Society of Trust and Estate Practitioners</p>
