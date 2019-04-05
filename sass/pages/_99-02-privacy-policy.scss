@@ -1,0 +1,18 @@
+body.page-template-99-02-legal-privacy-policy {
+  main {
+    section#introduction {
+      .title-wrapper {
+        text-align: center;
+        .title {
+          display: inline-block;
+          border-bottom: 1px solid black;
+        }
+      }
+    }
+    section#privacy-policy {
+      a {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
