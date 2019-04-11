@@ -39,7 +39,7 @@
   <section id="splash-1">
     <div class="container">
       <div class="row">
-        <div class="image-wrapper col-12 col-lg-9" style="background-image: url('<?php echo get_theme_file_uri('assets/images/splash-001.jpg');?>')"></div>
+        <div class="image-wrapper col-12 col-lg-9" style="background-image: url('<?php echo get_theme_file_uri('assets/images/1.jpg');?>')"></div>
       </div><!--row-->
     </div><!--container-->
   </section><!--#splash-->
@@ -69,7 +69,7 @@
   <section id="splash-2">
     <div class="container">
       <div class="row">
-        <div class="image-wrapper col-12 col-lg-9" style="background-image: url('<?php echo get_theme_file_uri('assets/images/splash-002.jpg'); ?>')"></div>
+        <div class="image-wrapper col-12 col-lg-9" style="background-image: url('<?php echo get_theme_file_uri('assets/images/2.jpg'); ?>')"></div>
       </div><!--row-->
     </div><!--container-->
   </section><!--#splash-->
@@ -120,7 +120,7 @@
   <section id="splash-3">
     <div class="container">
       <div class="row">
-        <div class="image-wrapper col-12 col-lg-9" style="background-image: url('<?php echo get_theme_file_uri('assets/images/splash-003.jpg'); ?>')"></div>
+        <div class="image-wrapper col-12 col-lg-9" style="background-image: url('<?php echo get_theme_file_uri('assets/images/3.jpg'); ?>')"></div>
       </div><!--row-->
     </div><!--container-->
   </section><!--#splash-->
