@@ -2,6 +2,8 @@
 /*
   Template Name: 01 - Home
 */
+
+
   get_header();
 ?>
 
@@ -10,7 +12,7 @@
     <div class="container">
       <div class="row">
         <div class="title-wrapper col-12 col-xl-8 col-lg-9">
-          <h1 class="main-title">Northern Wychwood Limited.</h1>
+          <h1 class="main-title">Northern Wychwood Limited</h1>
           <h2 class='title'>Corporate and trust management</h2>
           <h3 class="h4">With strongly rooted values, integrity and business acumen, we keep your assets secure and help your business to grow internationally.</h3>
         </div>

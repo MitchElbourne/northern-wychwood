@@ -165,12 +165,14 @@ html {
   text-rendering: optimizeLegibility; }
 
 .wpcf7-response-output, .wpcf7-validation-errors {
-  border-color: rgba(39, 94, 163, 0.9) !important;
+  border-color: #D13826 !important;
+  color: #D13826;
   float: left;
-  width: 100%; }
+  width: 100%;
+  margin-left: 0 !important; }
 
 span.wpcf7-not-valid-tip {
-  color: #275ea3;
+  color: #D13826;
   float: left; }
 
 header#header {
